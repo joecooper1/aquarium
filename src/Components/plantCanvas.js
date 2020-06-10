@@ -21,10 +21,6 @@ export default function PlantCanvas(props) {
     }
   });
 
-  // if (plantArray.length > 0) {
-  //   setInterval(() => checkPlants(plantArray, setPlantArray), 2000);
-  // }
-
   return (
     <canvas
       ref={canvasRef}

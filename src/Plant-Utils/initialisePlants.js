@@ -1,7 +1,7 @@
 import getRandomNum from "../utils/getRandomNum";
 
 export default function intialisePlants(setPlantArray, dimensions) {
-    console.log('initialise plants');
+  console.log("initialise plants");
   //Initialise new array
   const plantArray = [];
 

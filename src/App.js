@@ -31,10 +31,6 @@ function App() {
     }
   });
 
-  // if (plantArray.length > 0) {
-  //   setInterval(() => checkPlants(plantArray, setPlantArray), 2000);
-  // }
-
   if (!winWidth || !plantArray.length) {
     return <h1>Loading...</h1>;
   } else {
