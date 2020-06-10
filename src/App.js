@@ -4,7 +4,6 @@ import "./App.css";
 import PlantCanvas from "./Components/plantCanvas";
 
 import initialisePlants from "./Plant-Utils/initialisePlants";
-import checkPlants from "./Plant-Utils/checkPlants";
 
 function App() {
   const [winHeight, setWinHeight] = useState(window.innerHeight);

@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
 import drawPlants from "../Plant-Utils/drawPlants";
-import checkPlants from "../Plant-Utils/drawPlants";
 
 export default function PlantCanvas(props) {
   const canvasRef = useRef(null);
